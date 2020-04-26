@@ -17,8 +17,8 @@ public class BaiTap1Main {
     public static void main(String[] args) {
         // TODO code application logic here
         Context context=new Context();
-        context.setTinhToan((Tinh) new Cong());
-        System.out.println("");
+        context.setTinhToan(new Cong());
+        System.out.println(context.tinh(5f, 6f));
         
     }
     

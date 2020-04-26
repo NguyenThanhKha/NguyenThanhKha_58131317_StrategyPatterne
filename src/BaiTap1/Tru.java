@@ -9,15 +9,12 @@ package BaiTap1;
  *
  * @author HP
  */
-public class Context {
-    private Tinh tinhToan;
+public class Tru implements ITinh{
 
-    public void setTinhToan(Tinh tinhToan) {
-        this.tinhToan = tinhToan;
+    @Override
+    public float tinh(float a, float b) {
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return a-b;
     }
     
-    public float tinh(float a,float b)
-    {
-        return tinhToan.tinh(a, b);
-    }
 }

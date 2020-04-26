@@ -5,18 +5,13 @@
  */
 package BaiTap3;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author HP
  */
-public class BaiTap3Main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        QLSV ql= new QLSV();
-    }
-    
+public class QLSV {
+     ISoSanh<SinhVien> t;
+     ArrayList<SinhVien> sv;
 }
